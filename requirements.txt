@@ -76,3 +76,5 @@ pytest
 
 # CPU-only Torch (IMPORTANT)
 torch
+
+langchain-text-splitters
