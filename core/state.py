@@ -2,7 +2,8 @@
 from typing import TypedDict
 from typing import List
 from typing import Optional
-from langchain.schema import Document
+# from langchain.schema import Document
+from langchain_core.documents import Document
 
 class AgentState(TypedDict):
     question: str
