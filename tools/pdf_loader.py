@@ -1,6 +1,8 @@
 # tools/pdf_loader.py
 from langchain_community.document_loaders import PyPDFLoader
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+# from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
+
 
 def load_pdf_documents(file_path: str):
     print("Loading PDF from:", file_path)
