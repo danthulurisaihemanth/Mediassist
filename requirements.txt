@@ -1,0 +1,78 @@
+# # Core Requirements
+# fastapi
+# uvicorn
+# python-multipart
+# pydantic
+
+# # AI/ML Dependencies
+# langchain
+# huggingface-hub
+# langchain-core
+# langchain-community
+# langchain-groq
+# langchain_huggingface
+# langgraph
+# python-dotenv
+# sentence-transformers
+# pypdf
+# langchain-chroma
+# wikipedia
+# duckduckgo-search
+# torch
+# tensorflow
+# transformers
+
+# # Vector Database
+# chromadb
+
+# # Optional (for production)
+# python-jose
+# passlib
+# gunicorn
+# flask
+# pytest
+
+
+
+# Core
+fastapi
+uvicorn
+python-multipart
+pydantic
+python-dotenv
+
+# LangChain / RAG
+langchain
+langchain-core
+langchain-community
+langchain-huggingface
+langchain-chroma
+langgraph
+langchain-groq
+
+# Embeddings / NLP
+sentence-transformers
+transformers
+huggingface-hub
+
+# Vector DB
+chromadb
+
+# Utilities
+pypdf
+wikipedia
+duckduckgo-search
+
+# Web
+flask
+gunicorn
+
+# Auth / Security (optional)
+python-jose
+passlib
+
+# Testing
+pytest
+
+# CPU-only Torch (IMPORTANT)
+torch

@@ -1,0 +1,9 @@
+medical_db/
+data/
+*.pdf
+*.zip
+venv/
+__pycache__/
+.env
+.cache/
+.huggingface/
